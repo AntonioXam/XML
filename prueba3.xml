@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite>
+        <nombre>Antonio</nombre>
+        <email>yo@gmail.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Pepe</nombre>
+        <email>pepe@gmail.com</email>
+    </destinatario>
+    <asunto>Deuda</asunto>
+    <texto>
+        <párrafo>Me debes 6000 euros</párrafo>
+    </texto>
+</mensaje>

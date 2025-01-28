@@ -1,0 +1,6 @@
+<coche>
+    <ruedas>Firestone</ruedas>
+    <motor>Toyota</motor>
+    <color>Rojo</color>
+    <precio>10000</precio>
+</coche>
