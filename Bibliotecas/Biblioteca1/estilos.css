@@ -1,0 +1,7 @@
+libro{
+    display:block;
+}
+
+titulo,autor,fechaPublicacion{
+   display: block;
+}

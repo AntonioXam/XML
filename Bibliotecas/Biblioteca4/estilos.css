@@ -1,0 +1,30 @@
+biblioteca{
+    font-family: 'Calibri', Courier, monospace;
+}
+libro{
+    display:block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+titulo{
+    font-size: 120%;
+   display: block;
+    font-weight: bold;
+    
+}
+
+autor{
+    display: list-item;
+    list-style: disc outside;
+    margin-left: 20px;
+}
+
+fechaPublicacion{
+    display: list-item;
+    list-style: disc outside;
+    margin-left: 20px;
+
+}
