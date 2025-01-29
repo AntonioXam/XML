@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador>Zidane</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>Casemiro</nombre>
+                <posicion>Centrocampista</posicion>
+                <nacionalidad>Brasileño</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Modric</nombre>
+                <posicion>Centrocampista</posicion>
+                <nacionalidad>Croata</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador>Setién</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>Messi</nombre>
+                <posicion>Delantero</posicion>
+                <nacionalidad>Argentino</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Piqué</nombre>
+                <posicion>Defensa</posicion>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

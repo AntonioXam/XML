@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <destinatario>Antonio Martínez Coneza</destinatario>
+    <articulo>patín eléctrico A2020</articulo>
+    <direccion>
+        <calle>Mayor</calle>
+        <numero>16</numero>
+        <piso>3</piso>
+        <puerta>B</puerta>
+    </direccion>
+    <fecha>15/01/2020</fecha>
+</pedido>
