@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="equipos.css" type="text/css"?>
 <equipos>
     <equipo>
         <nombre>Real Madrid</nombre>
         <ciudad>Madrid</ciudad>
-        <entrenador>Zidane</entrenador>
         <jugadores>
-            <jugador>
-                <nombre>Casemiro</nombre>
-                <posicion>Centrocampista</posicion>
-                <nacionalidad>Brasileño</nacionalidad>
+            <jugador posicion="delantero">
+                <nombre>Cristiano Ronaldo</nombre>
+                <nacionalidad>Portugal</nacionalidad>
             </jugador>
-            <jugador>
-                <nombre>Modric</nombre>
-                <posicion>Centrocampista</posicion>
-                <nacionalidad>Croata</nacionalidad>
+            <jugador posicion="defensa">
+                <nombre>Sergio Ramos</nombre>
+                <nacionalidad>España</nacionalidad>
             </jugador>
         </jugadores>
     </equipo>
     <equipo>
-        <nombre>Barcelona</nombre>
+        <nombre>FC Barcelona</nombre>
         <ciudad>Barcelona</ciudad>
-        <entrenador>Setién</entrenador>
         <jugadores>
-            <jugador>
-                <nombre>Messi</nombre>
-                <posicion>Delantero</posicion>
-                <nacionalidad>Argentino</nacionalidad>
+            <jugador posicion="delantero">
+                <nombre>Lionel Messi</nombre>
+                <nacionalidad>Argentina</nacionalidad>
             </jugador>
-            <jugador>
-                <nombre>Piqué</nombre>
-                <posicion>Defensa</posicion>
-                <nacionalidad>Español</nacionalidad>
+            <jugador posicion="medio">
+                <nombre>Andrés Iniesta</nombre>
+                <nacionalidad>España</nacionalidad>
             </jugador>
         </jugadores>
     </equipo>
