@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remitente>
+        <nombre>Donald Trump</nombre>
+        <email>president@whitehouse.gov</email>
+    </remitente>
+    <destinatario>
+        <nombre>Barack Obama</nombre>
+        <email>expresident@whitehouse.gov</email>
+    </destinatario>
+    <asunto>Hola Barack</asunto>
+    <texto>
+        <párrafo>Hola! Qué tal?</párrafo>
+        <párrafo>A ver si me llamas y quedamos</párrafo>
+        <párrafo>Un saludo.</párrafo>
+    </texto>
+</mensaje>

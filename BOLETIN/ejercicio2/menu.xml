@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<menu>
+    <producto>
+        <nombre>Gofres con fresas</nombre>
+        <precio>4,95€</precio>
+        <descripcion>Dos gofres cubiertos de fresas y nata montada</descripcion>
+        <calorias>850cal</calorias>
+    </producto>
+    <producto>
+        <nombre>Tostada francesa</nombre>
+        <precio>3,50€</precio>
+        <descripcion>Dos gruesas rebanadas de pan francés casero.</descripcion>
+        <calorias>600cal</calorias>
+    </producto>
+    <producto>
+        <nombre>Zumo de naranja</nombre>
+        <precio>1,50€</precio>
+        <descripcion>Zumo de naranjas naturales recién exprimido.</descripcion>
+        <calorias></calorias>
+    </producto>
+    <producto>
+        <nombre>Desayuno de la casa</nombre>
+        <precio>5,95€</precio>
+        <descripcion>Dos huevos, bacon o salchicha y tostada</descripcion>
+        <calorias>900cal</calorias>
+    </producto>
+</menu>

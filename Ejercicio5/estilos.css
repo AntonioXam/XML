@@ -1,0 +1,54 @@
+desarrollo{
+    font-family: sans-serif;
+}
+
+titulo{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+subTitulo{
+    display: block;
+    font-size: 15px;
+    font-style:italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+modulos{
+    display: table;
+    border: 2px solid #000;    
+    margin: auto;
+    width: 40%;
+    border-spacing: 5px;
+}
+
+modulo{
+    display: table-row;
+    border: 2px solid #000;
+    
+
+}
+
+nombre{
+    display: table-cell;
+    border: 1px solid #000;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+curso{
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+horasSemanales{
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
