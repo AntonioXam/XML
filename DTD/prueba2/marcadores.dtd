@@ -1,0 +1,5 @@
+ <!ELEMENT marcadores (marcador*)>
+    <!ELEMENT marcador (nombre, descripcion, url)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>

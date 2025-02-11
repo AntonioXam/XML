@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "persona.dtd">
+
+<persona>
+    <nombre>Jorge</nombre>
+    <fecha_nacimiento>
+        <dia>12</dia>
+        <mes>12</mes>
+        <anio>1990</anio>
+    </fecha_nacimiento>
+    <ciudad>Murcia</ciudad>
+</persona>
