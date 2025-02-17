@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<texto>
-    <titulo>XML exlicado a los niños</titulo>
-    <párrafo>El &lt;XML&gt; define cómo crear lenguajes de marcas.</párrafo>
-    <párrafo>Las marcas se añaden a un documento de texto para añadir información</párrafo>
-    <![CDATA[ <http://www.example.org> ]]>
-</texto>
