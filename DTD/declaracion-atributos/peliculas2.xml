@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine [
+    <!ELEMENT cine (peliculas, directores)>
+    <!ELEMENT peliculas (pelicula)*>
+    <!ELEMENT pelicula (#PCDATA)>
+        <!ATTLIST pelicula codpel ID #REQUIRED>
+    <!ELEMENT directores (director)*>
+    <!ELEMENT director (#PCDATA)>
+        <!ATTLIST director filmografia IDREFS #REQUIRED>
+]>
+<cine>
+    <peliculas>
+        <pelicula codpel="P1">Avatar</pelicula>
+        <pelicula codpel="P2">Titanic</pelicula>
+        <pelicula codpel="P3">Million Dollar Baby</pelicula>
+        <pelicula codpel="P4">Terminator</pelicula>
+    </peliculas>
+    <directores>
+        <director filmografia="P3">Clint Eastwood</director>
+        <director filmografia="P1 P2 P4">James Cameron</director>
+    </directores>
+</cine>
