@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE factura [
+<!ELEMENT factura (numero, fecha, datos_emisor, datos_cliente, detalles_fac)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos_emisor (nombre, CIF, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT CIF (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT datos_cliente (nombre, CIF, telefono)>
+<!ELEMENT detalles_fac (articulo+, importe)>
+<!ELEMENT articulo (codigo, tipo, descripcion, cantidad, oferta, PVP)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo tipo (Libro | MP4 | varios) #IMPLIED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT oferta EMPTY>
+<!ELEMENT PVP (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ATTLIST codigo cod ID #REQUIRED>
+<!ATTLIST oferta valor (SI | NO) #IMPLIED>
+<!ATTLIST importe valor CDATA #REQUIRED>
+<!ATTLIST numero num CDATA #REQUIRED>
+<!ATTLIST fecha date CDATA #REQUIRED>
+]>
+
+<factura>
+    <numero num="23">23</numero>
+    <fecha date="20/02/2020">20/02/2020</fecha>
+    <datos_emisor>
+        <nombre>Libreria Las Tejeras</nombre>
+        <CIF>12233344L</CIF>
+        <telefono>666999555</telefono>
+    </datos_emisor>
+    <datos_cliente>
+        <nombre>C.E.S. Vega Media</nombre>
+        <CIF>33344441V</CIF>
+        <telefono>968620913</telefono>
+    </datos_cliente>
+    <detalles_fac>
+        <articulo>
+                 <codigo cod="CX1">CX1</codigo>
+                 <tipo tipo="Libro">Libro</tipo>
+                 <descripcion>Curso de XML</descripcion>
+                 <cantidad>1</cantidad>
+                 <oferta/>
+                 <PVP>30€</PVP>
+        </articulo>
+        <articulo>
+                 <codigo cod="DW5">DW5</codigo>
+                 <tipo tipo="MP4">MP4</tipo>
+                 <descripcion>Diseño Web 5.0</descripcion>
+                 <cantidad>3</cantidad>
+                 <oferta/>
+                 <PVP>25€</PVP>
+        </articulo>
+        <importe valor="105">105€</importe>
+    </detalles_fac>
+</factura>

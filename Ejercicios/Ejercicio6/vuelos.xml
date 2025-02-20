@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE vuelos [
+<!ELEMENT vuelos (aeropuerto, vuelo+, fecha)>
+<!ELEMENT aeropuerto (#PCDATA)>
+<!ELEMENT vuelo (codigo, diario?, origen, destino, hora_salida, hora_llegada, estado)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora_salida (#PCDATA)>
+<!ELEMENT hora_llegada (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST codigo cod ID #REQUIRED>
+<!ATTLIST estado  valor (C | E | R) "E">
+<!ATTLIST vuelo diario (SI | NO) #IMPLIED>
+<!ELEMENT fecha (#PCDATA)>
+]>
+
+<vuelos>
+    <aeropuerto>AEROPUERTO INTERNACIONAL REGIÓN DE MURCIA</aeropuerto>
+    <vuelo>
+        <codigo cod="V01">V01</codigo>
+        <diario/>
+        <origen>Corvera</origen>
+        <destino>Londres</destino>
+        <hora_salida>10:30</hora_salida>
+        <hora_llegada>12:45</hora_llegada>
+        <estado>R</estado>
+    </vuelo>
+    <vuelo>
+        <codigo cod="V02">V02</codigo>
+        <diario/>
+        <origen>Corvera</origen>
+        <destino>Manchester</destino>
+        <hora_salida>11:15</hora_salida>
+        <hora_llegada>13:50</hora_llegada>
+        <estado>C</estado>
+    </vuelo>
+    <fecha>20/02/2020</fecha>
+</vuelos>

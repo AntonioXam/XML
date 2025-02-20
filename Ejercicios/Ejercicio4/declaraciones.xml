@@ -4,7 +4,9 @@
 <!ELEMENT constante (#PCDATA)>
 <!ELEMENT tipo_de_dato (#PCDATA)>
 <!ELEMENT variable (#PCDATA)>
-<!ATTLIST variable tipo 
+<!ATTLIST constante valor CDATA #REQUIRED>
+<!ATTLIST variable tipo (entero | real | caracter) #IMPLIED>
+
 ]>
 <declaraciones>
 <constante valor="3.141592">PI</constante>

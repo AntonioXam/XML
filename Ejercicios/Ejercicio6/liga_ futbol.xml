@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE liga [
+<!ELEMENT liga (partido)*>
+<!ELEMENT partido (local, visitante, goles_local, goles_visitante)>
+<!ELEMENT local (#PCDATA)>
+<!ELEMENT visitante (#PCDATA)>
+<!ELEMENT goles_local (#PCDATA)>
+<!ELEMENT goles_visitante (#PCDATA)>
+<!ATTLIST goles_local goles CDATA #REQUIRED>
+<!ATTLIST goles_visitante goles CDATA #REQUIRED>
+]>  
+
+<liga>
+    <partido>
+        <local>Real Madrid</local>
+        <visitante>Valencia C.F.</visitante>
+        <goles_local goles="2"></goles_local>
+        <goles_visitante goles="0"></goles_visitante>
+    </partido>
+    <partido>
+        <local>Atlético Madrid</local>
+        <visitante>F.C. Barcelona</visitante>
+        <goles_local goles="3"></goles_local>
+        <goles_visitante goles="3"></goles_visitante>
+    </partido>
+    <partido>
+        <local>Real Betis</local>
+        <visitante>Sevilla F.C.</visitante>
+        <goles_local goles="2"></goles_local>
+        <goles_visitante goles="1"></goles_visitante>
+    </partido>
+    <partido>
+        <local>Real Sociedad</local>
+        <visitante>Athletic Bilbao</visitante>
+        <goles_local goles="1"></goles_local>
+        <goles_visitante goles="2"></goles_visitante>
+    </partido>
+</liga>
