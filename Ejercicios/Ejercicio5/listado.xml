@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE listado SYSTEM "listado.dtd">
+<!DOCTYPE listado [
+<!ELEMENT listado (persona*)>
+<!ELEMENT persona (nombre, fecha_nacimiento, desempleado?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT desempleado EMPTY>
+]>
+
 <listado>
 <persona>
 <nombre>Antonio López</nombre>

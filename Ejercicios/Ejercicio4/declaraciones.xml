@@ -5,7 +5,7 @@
 <!ELEMENT tipo_de_dato (#PCDATA)>
 <!ELEMENT variable (#PCDATA)>
 <!ATTLIST constante valor CDATA #REQUIRED>
-<!ATTLIST variable tipo (entero | real | caracter) #IMPLIED>
+<!ATTLIST variable tipo CDATA #IMPLIED>
 
 ]>
 <declaraciones>
